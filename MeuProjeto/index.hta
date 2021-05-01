@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>My HTML application</title>
+<meta charset="utf-8"/>
+<HTA:APPLICATION
+  APPLICATIONNAME="My HTML application"
+  ID="MyHTMLapplication"
+  VERSION="1.0"
+  BORDER="none"
+  INNERBORDER="no"
+  CAPTION="no"
+  SYSMENU="no"
+  MAXIMIZEBUTTON="no"
+  MINIMIZEBUTTON="no"
+  SCROLL="no"
+  SCROLLFLAT="yes"
+  SINGLEINSTANCE="yes"
+  WINDOWSTATE="maximize"/>    
+
+<script language="VBScript" src="MeuScript.vbs">
+</script>
+
+
+</head>
+<body bgcolor= #FFFFFF>
+<!--Add your controls here--> 
+<right>
+	<Input ID="Close"  onclick="Window_OnClose()" type="button" value="Close">
+</right>
+            <center>
+           	<font size="4">
+				<b>Universidade Federal de Uberlândia</b> <br>
+				<b> Faculdade de Engenharia Elétrica</b> <br>
+				<b>Engenharia de Controle e Automação</b> <br> <br>
+            </font>
+            <font size="6"><b>Trabalho 1 - Sistemas Supervisorios para Controle e Automação</b></font>
+			
+<br>
+
+<br>
+
+
+<H2> 
+  <div id=PV> Esperando OPC  </div>
+</H2> 
+
+ <br>
+<Input ID="LerOPC"  onclick="LerOPC()" type="button" value="Ler valor do OPC">
+<Input ID="LerTeste"  onclick="LerTeste()" type="button" value="Ler Teste">
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</center>
+
+<br>
+<!--{{InsertControlsHere}}-Do not remove this line-->
+</body>
+</html>

@@ -1,0 +1,16 @@
+2) Leitura do Dado via OPC Server
+
+   Requisitos:
+    - Servidor OPC Instalado (GrayBox Simulator, OPC Labs Kit Server)
+	  - Cliente OPC (OpenOPC - Python, QuickOPC)
+	   
+   Operação:
+    - Se QuickOPC -> Vide exemplo do próprio fabricante
+    - Se OpenOPC 
+      Confirmar:
+        - Python 2.7 (32bit)
+        - pywin32 (instalação: pip install pywin32) ou instalador GitHub
+        - OpenOPC instalado (Serviço do Windows)
+    - Criar e testar Scripts (VBS)
+    - Incluir os Scripts em um Projeto (Visual Studio Code)
+    - Testar
